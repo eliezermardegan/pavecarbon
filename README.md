@@ -1,30 +1,22 @@
 # PaveCarbon V2
 
-Static EN/PT/ES website for GitHub Pages testing.
+Static multilingual website for GitHub Pages.
 
-## Files
-- `index.html` — English
-- `pt.html` — Portuguese
-- `es.html` — Spanish
-- `styles.css` — responsive visual system
-- `script.js` — front-end enquiry preparation
+## Languages
+- English — `index.html`
+- Português — `pt.html`
+- Español — `es.html`
+
+All three language versions contain the same core commercial structure and content, translated for the respective audience. The language selector links between the corresponding pages.
 
 ## Run locally
 Open `index.html` in a browser, or serve the folder with any static HTTP server.
 
 ## GitHub Pages
-Commit the files to a repository and enable GitHub Pages from the repository's Pages settings, using the main branch/root directory.
+Upload the files to a repository and enable GitHub Pages from the repository settings.
 
-## Form behaviour
-The form validates required fields in the browser and prepares a `mailto:info@pavecarbon.com` draft. The README does not assume that the mailbox exists or that a backend lead service is configured. Confirm the mailbox before relying on the CTA operationally.
+## Forms
+The form is front-end only. `script.js` prepares an email enquiry using `mailto:info@pavecarbon.com`; confirm that the mailbox is active before relying on this as a production lead channel.
 
 ## Content integrity
-No certifications, credits, customers, pilot projects, performance results or partner network are represented as confirmed. MRV-ready is explicitly distinguished from verified and certified outcomes. Technical assumptions remain subject to qualification and validation.
-
-## Pending confirmations
-- Confirm `info@pavecarbon.com` is active.
-- Confirm legal/brand relationship between Hub Carbon Limited and PaveCarbon before using formal affiliation language.
-- Confirm real Portuguese regional partner capacity.
-- Replace placeholders with approved logo/identity assets if available.
-- Confirm whether an existing repository/V1 should be used as the design/code base.
-- Confirm validated environmental claims and any selected C-Sink methodology.
+The site does not claim certification, issued credits, verified performance, customers, projects or a fictional partner network. MRV-ready, verified and certified/credits-issued are intentionally distinguished.
